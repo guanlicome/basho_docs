@@ -70,9 +70,9 @@ _Pack my box with five dozen liquor jugs._
 
 Sections selectively taken from <http://www.markitdown.net/markdown>
 
-### Lists
+## Lists
 
-#### Ordered list
+### Ordered list
 
 1. Item 1
 2. A second item
@@ -93,7 +93,7 @@ Sections selectively taken from <http://www.markitdown.net/markdown>
 
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
 
-#### Unordered list
+### Unordered list
 
 * An item
 * Another item
@@ -107,39 +107,45 @@ Sections selectively taken from <http://www.markitdown.net/markdown>
 * Yet another item
 * And there's more...
 
-#### Quote
+## Quote
 
 > Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
 
-### Headings
+## Headings
 
 There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character.
 
-#### Headings *can* also contain **formatting**
+### Headings *can* also contain **formatting**
 
 Our anchor generation logic is okay with it, too.
 
-#### They can even contain `inline code`
+### They can even contain `inline code`
 
 Of course, demonstrating what headings look like messes up the structure of the page.
 
 I don't recommend using more than three or four levels of headings here, because, when you're smallest heading isn't too small, and you're largest heading isn't too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.
 
-For reference;
-
-#### Heading level four
+## H2 -- _Italics_, **Emphasis**, and _**Both**_
 
 **Bold text for scale**. Regular text for scale.
 
-##### Heading level five
+### H3 -- _Italics_, **Emphasis**, and _**Both**_
 
 **Bold text for scale**. Regular text for scale.
 
-###### Heading level six
+#### H4 -- _Italics_, **Emphasis**, and _**Both**_
 
 **Bold text for scale**. Regular text for scale.
 
-### URLs
+##### H5 -- _Italics_, **Emphasis**, and _**Both**_
+
+**Bold text for scale**. Regular text for scale.
+
+###### H6 -- _Italics_, **Emphasis**, and _**Both**_
+
+**Bold text for scale**. Regular text for scale.
+
+## URLs
 
 URLs can be made in a handful of ways:
 
@@ -149,7 +155,7 @@ URLs can be made in a handful of ways:
 
 [3]: http://www.markitdown.net/
 
-### Horizontal rule
+## Horizontal rule
 
 ---
 
@@ -157,7 +163,7 @@ A horizontal rule is a line that goes across the middle of the page.
 
 It's sometimes handy for breaking things up.
 
-### Tables
+## Tables
 
 Parameter | Default | Description
 :---------|:--------|:-----------
