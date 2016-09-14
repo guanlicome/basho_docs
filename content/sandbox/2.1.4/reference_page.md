@@ -54,7 +54,7 @@ _The quick brown fox jumps over the lazy dog_
 
 **_The quick brown fox jumps over the lazy dog_**
 
-<br>
+  
 
 Pack my box with five dozen liquor jugs.
 
@@ -110,6 +110,23 @@ Sections selectively taken from <http://www.markitdown.net/markdown>
 ## Quote
 
 > Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
+
+Lorem markdownum, spem citharam pignora ligavit dantem, folio, **videt**
+pericula aera, per fect aque fluens nescitve quoque. Auro sua? Volucrum lacrimis.
+
+## Note Shortcode
+
+{{% note %}}This is a simple Note, generated with the \{\{% note %\}\} shortcode.{{% /note %}}
+
+Lorem markdownum, spem citharam pignora ligavit dantem, folio, **videt**
+pericula aera, per fect aque fluens nescitve quoque. Auro sua? Volucrum lacrimis.
+
+
+{{% note title="Title Text"%}}This is a note with a title, in addition to wrapped text.{{% /note %}}
+
+Lorem markdownum, spem citharam pignora ligavit dantem, folio, **videt**
+pericula aera, per fect aque fluens nescitve quoque. Auro sua? Volucrum lacrimis.
+
 
 ## Headings
 
