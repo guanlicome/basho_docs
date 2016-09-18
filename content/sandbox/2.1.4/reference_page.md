@@ -9,7 +9,7 @@ menu:
     name: "Reference"
     identifier: "ref"
     weight: 300
-    pre: icon-cloud
+    pre: cloud
 toc: true
 canonical_link: "https://docs.basho.com/riak/kv/latest/developing"
 ---
