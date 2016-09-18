@@ -16,7 +16,7 @@ blackfriday:
 
 # Ignore files (such as the reference links list) on build
 ignoreFiles: [
-    "\\_reference-links.md$",
+    "_reference-links.md",
     "dataplatform",
     "community",
     "riak",
