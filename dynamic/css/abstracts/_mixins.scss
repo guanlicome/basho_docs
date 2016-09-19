@@ -107,7 +107,8 @@
 /// @param {Number} size  - Size of the base of the arrow
 /// @param {Color}  color - Color of the arrow.
 @mixin vertical-arrow($base, $point, $size, $color) {
-  width            : 0;
+  width            : #{$size * 2};
+  height           : #{$size};
   border           : #{$size} solid transparent;
   border-#{$base}  : #{$size} solid #{$color};
   border-#{$point} : none;
